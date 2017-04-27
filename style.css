@@ -1,0 +1,81 @@
+body{
+  background: url('http://setfon.com/large/201510/68045.jpg') no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+h1{
+  font-family: Libertine;
+  font-size: 70px;
+  font-weigth: bold;
+  color: #FFF;
+  text-shadow: 1px 1px 5px black;
+}
+.header{
+  color: #FFF;
+  text-shadow: 1px 1px 5px black;
+  font-family: Libertine;
+  font-style: italic;
+  font-size: 25px;
+}
+.containter img{
+  width: 200px;
+  height: auto;
+  margin-top: 30px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  
+}
+img:hover{
+   filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+.containter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-control{
+  width: 250px;
+  margin: 20px 0;
+}
+.btn{
+  height: 45px;
+  margin: 20px 0;
+}
+ul{
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+li{
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+li p{
+  margin: 5px 30px;
+}
+li a{
+  margin: 0 30px;
+  color: #000;
+  font-weight: bold;
+}
+li a:hover{
+  color: #FFF;
+  text-decoration: none;
+}
+li:hover{
+  background: rgba(255, 255, 255, 0.8);
+}
